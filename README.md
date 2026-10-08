@@ -202,7 +202,7 @@ Add Huginn to your lazy.nvim plugin specification:
 
 ```lua
 {
-  "burenk0v/huginn.nvim",
+  "snake-and-gopher/huginn.nvim",
 }
 ```
 
@@ -212,7 +212,7 @@ You can also explicitly configure the plugin:
 
 ```lua
 {
-  "burenk0v/huginn.nvim",
+  "snake-and-gopher/huginn.nvim",
   config = function()
     require("huginn").setup()
   end,
@@ -271,7 +271,7 @@ With lazy.nvim:
 
 ```lua
 {
-  "burenk0v/huginn.nvim",
+  "snake-and-gopher/huginn.nvim",
   dependencies = {
     "folke/lazy.nvim",
   },
